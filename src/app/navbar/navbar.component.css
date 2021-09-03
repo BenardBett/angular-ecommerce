@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.zidi-navbar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 80px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.zidi-navbar__brand {
+  justify-self: start;
+  align-self: center;
+  padding-left: 43px;
+}
+
+.zidi-navbar__brand a {
+  font-size: 25px;
+  text-decoration: none;
+  margin: 0;
+  color: #0B6BA2;
+}
+
+.zidi-navbar__link {
+  color: #0B6BA2;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 7px;
+}
+
+.zidi-navbar__link--btn {
+  margin-right: 0 30px;
+  border-radius: 8px;
+  background-color: #0B6BA2;
+  color: #fff;
+  padding: 5px 10px;
+  height: 20px;
+}
+
+.zidi-navbar__center {
+  align-self: center;
+}
+
+.zidi-navbar__center .zidi-navbar__link {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.zidi-navbar__right {
+  padding-right: 43px;
+  justify-self: end;
+  align-self: center;
+}
+
+.zidi-navbar__cart {
+  margin-right: 35px;
+}
+
+.zidi-navbar__cart svg {
+  fill: #0B6BA2;
+  width: 28px;
+  height: 28px;
+}
+
+.zidi-navbar__cart-items {
+  position: relative;
+  left: -16px;
+  top: -13px;
+  background-color: #0B6BA2;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 50%;
+}
+
+#svg2 {
+  cursor: pointer;
+}

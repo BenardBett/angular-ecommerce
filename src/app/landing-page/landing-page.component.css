@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.landing-page__large-circle {
+    position: absolute;
+    top: 0;
+    z-index: -3;
+    opacity: 21%;
+}
+
+.landing-page__small-circle {
+    position: absolute;
+    right: 100px;
+    bottom: -10px;
+    opacity: 21%;
+    z-index: -3;
+}
+
+.landing-page__titles {
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 50px;
+    color: #0B6BA2;
+}
+
+.landing-page__subtitle {
+    font-family: 'Bebas Neue', cursive;
+    color: #0B6BA2;
+}
+
+.landing-page__title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+}
+
+.landing-page__title--underlined {
+    text-decoration: underline;
+}
+
+.landing-page__subtitle {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.landing-page__image {
+    margin-top: -170px;
+    margin-bottom: -100px;
+    width: 900px;
+}
+
+.landing-page__order-btn {
+    padding: 8px 90px;
+    background-color: #0B6BA2;
+    color: #FFF;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.landing-page__footer {
+    margin-top: 80px;
+}

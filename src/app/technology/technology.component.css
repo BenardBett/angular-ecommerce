@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+.tech{
+    color: #0B6BA2 ;
+    text-align: center;
+    font-weight: bold;
+}
+
+.zidi{
+    color: #0B6BA2 ;
+    text-align: center;
+    font-size: 25px;
+}
+#sol{
+    position:absolute;
+    color: #0B6BA2 ;
+    margin-left: 88px;
+    margin-bottom: 80px; 
+    margin-top: 95px;
+    opacity: 100%;
+}
+#mic{
+    color: #0B6BA2 ;
+}
+#fb{
+    color: #0B6BA2 ;
+}
+p{
+    color: #0B6BA2 ;
+}
+.postgres {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+
+  .posts{
+    position: absolute;
+    margin-left: 50px;
+    opacity: 0.1;
+  }
+  .zidi2{
+      margin-right: -80px;
+  }
+  .microphone {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+  .mic1{
+    position: absolute;
+    margin-left: 50px;
+    opacity: 0.1;
+  }
+  .zidi3{
+    margin-right: 80px;
+}
+
+#sol1{
+    position:absolute;
+    color: #0B6BA2 ;
+    margin-left: 75px;
+    margin-bottom: 80px; 
+    margin-top:80px;
+    opacity: 100%;
+
+}
+#sol2{
+    position:absolute;
+    color: #0B6BA2 ;
+    margin-left: 75px;
+    margin-bottom: 80px; 
+    margin-top:80px;
+    opacity: 100%;
+
+}
+#sol3{
+    position:absolute;
+    color: #0B6BA2 ;
+    margin-left: 75px;
+    margin-bottom: 80px; 
+    margin-top:80px;
+    opacity: 100%;
+
+}
+#sol4{
+    position:absolute;
+    color: #0B6BA2 ;
+    margin-left: 75px;
+    margin-bottom: 80px; 
+    margin-top:80px;
+    opacity: 100%;
+
+}
+#sol5{
+    position:absolute;
+    color: #0B6BA2 ;
+    margin-left: 75px;
+    margin-bottom: 80px; 
+    margin-top:80px;
+    opacity: 100%;
+
+}
+ #sol6{
+    position:absolute;
+    color: #0B6BA2 ;
+    margin-left: 77px;
+    margin-bottom: 80px; 
+    margin-top:80px;
+    opacity: 100%; 
+} 
+#sol7{
+    position:absolute;
+    color: #0B6BA2 ;
+    margin-left: 77px;
+    margin-bottom: 80px; 
+    margin-top:80px;
+    opacity: 100%; 
+
+}
+#sol8{
+    position:absolute;
+    color: #0B6BA2 ;
+    margin-left: -50px; 
+    margin-bottom: 80px; 
+    margin-top:80px;
+    opacity: 100%;
+
+}

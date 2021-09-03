@@ -1,0 +1,94 @@
+<app-navbar></app-navbar>
+
+<app-modal></app-modal>
+
+<h1>ZIDI</h1>
+<br>
+<h2>COLOR</h2>
+<BR>
+<div id="theme-options-wrapper">
+  <div (click)="changeColor('red')" data-mode="light" id="light-mode" class="theme-dot"></div>
+  <div (click)="changeColor('blue')" data-mode="blue" id="blue-mode" class="theme-dot"></div>
+  <div (click)="changeColor('purple')" data-mode="green" id="green-mode" class="theme-dot"></div>
+  <div (click)="changeColor('black')" data-mode="purple" id="purple-mode" class="theme-dot"></div>
+</div>
+
+<div class="container-fluid">
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div *ngFor="let item of images | keyvalue">
+        <div *ngIf="item.key == color">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="{{item.value[0]}}" alt="..." class="center">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="{{item.value[1]}}" alt="..." class="center">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="" aria-hidden="true"></span>
+        <span class=""><i id="left" class="fas fa-chevron-left"></i></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="" aria-hidden="true"></span>
+        <span class=""><i id="right" class="fas fa-chevron-right"></i></span>
+      </button>
+    </div>
+  </div>
+</div>
+<h3>QUANTITY</h3>
+<br>
+<h3>
+  <button (click)="decreaseQuantity()" class="order__minus">-</button>
+  <span class="order__quantity">{{quantity}}</span>
+  <button (click)="increaseQuantity()" class="order__plus">+</button>
+</h3>
+<br>
+
+<div class="text-center" style="font-family: 'Bebas Neue'; ">
+  <button (click)="addToCart()" type="button" id="btn" class="btn btn"><i id="cart" class="fas fa-cart-plus"></i>ADD TO
+    CART</button>
+</div>
+
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <p><svg width="30" height="35" viewBox="0 0 36 38" fill="none" xmlns="http://www.w3.org/2000/svg" id="svg1">
+          <path
+            d="M2.67 9.7625C1.3925 10.2525 0.5 11.5475 0.5 13V34C0.5 35.925 2.0575 37.5 4 37.5H32C33.9425 37.5 35.5 35.925 35.5 34V13C35.5 11.0575 33.9425 9.5 32 9.5H11.525L25.98 3.655L24.79 0.75L2.67 9.7625ZM9.25 34C6.345 34 4 31.655 4 28.75C4 25.845 6.345 23.5 9.25 23.5C12.155 23.5 14.5 25.845 14.5 28.75C14.5 31.655 12.155 34 9.25 34ZM32 20H28.5V16.5H25V20H4V13H32V20Z"
+            fill="#0B6BA2" />
+        </svg>In-Built FM Radio Tuner</p>
+    </div>
+    <div class="col-sm">
+      <p><i id="light" class="far fa-lightbulb"></i>4*140 Lumen Led Lamps</p>
+    </div>
+    <div class="col-sm">
+      <p><i id="bolt" class="fas fa-bolt"></i>Off-Grid power bank</p>
+    </div>
+
+  </div>
+</div>
+
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <p><i id="sol" class="fas fa-solar-panel"></i>15W solar panel</p>
+    </div>
+    <div class="col-sm">
+      <p><i id="mic" class="fas fa-microphone"></i>Hand-Free microphone</p>
+    </div>
+
+    <div class="col-sm">
+      <p><i id="fb" class="fab fa-bluetooth-b"></i>Bluetooth Auto Streaming</p>
+    </div>
+  </div>
+</div>
+<br>
+
+<app-footer></app-footer>

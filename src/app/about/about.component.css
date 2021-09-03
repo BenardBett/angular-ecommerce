@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 89px;
+  line-height: 107px;
+  color: #0B6BA2;
+}
+
+.about {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 136.3%;
+  /* or 49px */
+  text-align: center;
+  color: #0B6BA2;
+}
+
+.container-fluid {
+  margin-top: 10rem;
+  height: 400px;
+  left: 0px;
+  top: 948px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #0B6BA2;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.fad fa-adjust {
+  position: absolute;
+  width: 565px;
+  height: 565px;
+  left: 72px;
+  top: 174px;
+  background: rgba(196, 196, 196, 0.21);
+}
+
+h4 {
+  width: 682px;
+  height: 85px;
+  left: 348px;
+  top: 2830px;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  /* margin-left:5px; */
+  color: #0B6BA2;
+}
+
+h5 {
+  width: 682px;
+  height: 85px;
+  left: 1328px;
+  top: 2830px;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+
+.values>ul>li {
+  list-style: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 136.3%;
+  /* or 59px */
+  padding-left: 3%;
+  color: #FFFFFF;
+}
+
+.history {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 136.3%;
+  /* or 59px */
+  color: #0B6BA2;
+}
+
+.vision {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 136.3%;
+  /* or 50px */
+  /* top: 10px; */
+  height: 400px;
+  color: #0B6BA2;
+}
+
+h3 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 109px;
+  line-height: 131px;
+  color: #0B6BA2;
+}
+
+h2 {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+
+.about__title {
+  text-align: center;
+}
+
+.mission {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 136.3%;
+  /* or 41px */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.circle {
+  float: right;
+}
+
+.icon-background {
+  color: #c0ffc0;
+}
